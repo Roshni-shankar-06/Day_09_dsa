@@ -21,10 +21,4 @@ class Solution:
 
         if node.left:
           queue.append(node.left)
-        if node.right:
-          queue.append(node.right)
-
-      result.append(current_level)
-
-    # Reverse to get bottom-up order
-    return result[::-1]
+   
