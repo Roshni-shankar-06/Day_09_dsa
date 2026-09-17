@@ -5,9 +5,5 @@ class Solution:
         
         # Pointer for the current root in postorder array
         post_idx = len(postorder) - 1
-        
-        def helper(in_left: int, in_right: int) -> Optional[TreeNode]:
-            nonlocal post_idx
-            if in_left > in_right:
-             
+   
            
