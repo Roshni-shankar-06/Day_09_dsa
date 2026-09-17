@@ -10,8 +10,4 @@ public:
                 const int w = stack.empty() ? i : i - stack.top() - 1;
                 ans = max(ans, h * w);
             }
-            stack.push(i);
-        }
-        return ans;
-    }
-};
+      
