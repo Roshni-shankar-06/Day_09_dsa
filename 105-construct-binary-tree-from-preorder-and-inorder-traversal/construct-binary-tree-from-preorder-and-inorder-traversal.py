@@ -4,10 +4,6 @@ class Solution:
         self.pre_idx = 0
         
         def helper(in_left: int, in_right: int) -> Optional[TreeNode]:
-            if in_left > in_right:
-                return None
-            
-            root_val = preorder[self.pre_idx]
            
             
          
