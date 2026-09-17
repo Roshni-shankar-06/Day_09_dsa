@@ -8,10 +8,7 @@ class Solution:
                 return None
             
             root_val = preorder[self.pre_idx]
-            self.pre_idx += 1
-            root = TreeNode(root_val)
-            
-            mid = in_map[root_val]
+           
             
          
             
