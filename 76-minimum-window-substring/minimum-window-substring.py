@@ -38,12 +38,4 @@ class Solution:
                     ans = (right - left + 1, left, right)
                 
                 # The character at 'left' position is no longer a part of the window
-                window_count[character] -= 1
-                if character in t_count and window_count[character] < t_count[character]:
-                    formed -= 1
-                
-                left += 1    
-            
-            right += 1
-            
-        return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
+              
