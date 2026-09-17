@@ -17,8 +17,5 @@ class Solution:
                 
             if window_sum == target:
                 length = right - left + 1
-                if left > 0 and best[left - 1] != INF:
-                    result = min(result, length + best[left - 1])
-                min_len = min(min_len, length)
-                best[right] = min_len
+            
            
