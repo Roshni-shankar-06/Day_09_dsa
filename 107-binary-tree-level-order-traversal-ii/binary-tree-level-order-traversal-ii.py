@@ -8,11 +8,6 @@ class Solution:
     if not root:
       return []
 
-    result = []
-    queue = deque([root])
 
-    while queue:
-      level_size = len(queue)
-    
      
    
