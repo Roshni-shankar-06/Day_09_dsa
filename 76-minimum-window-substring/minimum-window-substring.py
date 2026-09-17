@@ -12,12 +12,5 @@ class Solution:
         
         # 'required' is the number of unique characters in t that must be present in the window
         # 'formed' tracks how many unique characters meet their target frequency requirement
-        required = len(t_count)
-        formed = 0
-        
-        # Left and Right pointers
-        left, right = 0, 0
-        
-        # ans tuple: (window_length, left_pointer, right_pointer)
-        ans = float("inf"), None, None
+      
   
