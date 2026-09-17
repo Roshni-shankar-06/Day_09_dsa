@@ -22,9 +22,4 @@ class Solution:
             index = in_map[root_val]
             
             # Build right subtree first because postorder processes left, right, root
-            root.right = helper(index + 1, in_right)
-            root.left = helper(in_left, index - 1)
-            
-            return root
-            
-        return helper(0, len(inorder) - 1)
+         
