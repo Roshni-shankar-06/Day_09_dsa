@@ -30,12 +30,5 @@ class Solution:
                 formed += 1
             
             # Try to contract the window from the left if it's valid
-            while left <= right and formed == required:
-                character = s[left]
-                
-                # Save the smallest window so far
-                if right - left + 1 < ans[0]:
-                    ans = (right - left + 1, left, right)
-                
-                # The character at 'left' position is no longer a part of the window
+           
               
