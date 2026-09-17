@@ -9,10 +9,5 @@ class Solution:
         def helper(in_left: int, in_right: int) -> Optional[TreeNode]:
             nonlocal post_idx
             if in_left > in_right:
-                return None
-            
-            # The last element in current postorder range is the root
-            root_val = postorder[post_idx]
-            root = TreeNode(root_val)
-            
+             
            
