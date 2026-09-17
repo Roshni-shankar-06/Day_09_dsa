@@ -15,11 +15,4 @@ class Solution:
             root_val = postorder[post_idx]
             root = TreeNode(root_val)
             
-            # Move pointer to the next root element
-            post_idx -= 1
-            
-            # Get root index in inorder array to divide subtrees
-            index = in_map[root_val]
-            
-            # Build right subtree first because postorder processes left, right, root
-         
+           
