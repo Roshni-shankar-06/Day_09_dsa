@@ -13,7 +13,6 @@ class Solution:
             
             mid = in_map[root_val]
             
-            root.left = helper(in_left, mid - 1)
-            root.right = helper(mid + 1, in_right)
+         
             
        
