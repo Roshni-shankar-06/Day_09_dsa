@@ -21,8 +21,4 @@ class Solution:
                     result = min(result, length + best[left - 1])
                 min_len = min(min_len, length)
                 best[right] = min_len
-            else:
-                if right > 0:
-                    best[right] = best[right - 1]
-                    
-        return -1 if result == INF else result
+           
