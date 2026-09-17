@@ -11,11 +11,6 @@ class Solution:
         for right in range(n):
             window_sum += arr[right]
             
-            while window_sum > target:
-                window_sum -= arr[left]
-                left += 1
-                
-            if window_sum == target:
-                length = right - left + 1
+          
             
            
