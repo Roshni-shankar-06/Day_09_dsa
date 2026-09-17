@@ -16,6 +16,4 @@ class Solution:
             root.left = helper(in_left, mid - 1)
             root.right = helper(mid + 1, in_right)
             
-            return root
-            
-        return helper(0, len(inorder) - 1)
+       
