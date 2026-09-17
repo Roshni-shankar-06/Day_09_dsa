@@ -20,15 +20,4 @@ class Solution:
         
         # ans tuple: (window_length, left_pointer, right_pointer)
         ans = float("inf"), None, None
-        
-        while right < len(s):
-            character = s[right]
-            window_count[character] = window_count.get(character, 0) + 1
-            
-            # If the frequency of the current character matches its required frequency in t
-            if character in t_count and window_count[character] == t_count[character]:
-                formed += 1
-            
-            # Try to contract the window from the left if it's valid
-           
-              
+  
